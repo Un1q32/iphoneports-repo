@@ -1,0 +1,8 @@
+Origin: iPhonePorts
+Label: iPhonePorts
+Suite: stable
+Version: 1.0
+Codename: iphoneports
+Architectures: darwin-i386
+Components: main
+Description: Ports of UNIX software to legacy Darwin

@@ -1,0 +1,1986 @@
+Package: iconfix
+Version: 10
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Filename: ./debs/iconfix.deb
+Size: 34950
+MD5sum: f3744565da1408844d368679755d7c18
+SHA1: fa15595e4aa8ea92f5ce142775c4515fb12dc94a
+SHA256: dbc087f6cad5152e65a29a294f1cd60bf842c6702ea5b6a4f0fb35189622e336
+Section: Utilities
+Description: A script that fixes the iFile and MTerminal icons on iOS 6 and below.
+Name: iFile/MTerminal icon fix
+
+Package: iphoneports-2048
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/2048.deb
+Size: 6112
+MD5sum: e2374d07679e5c02e099d6354167e423
+SHA1: ba565ed2d4a6872477805a9921adb88e31ff41c7
+SHA256: c9c952de11b76c8a82df26afa25349add297caf3ff932c85fdfa8e339758076f
+Section: Games
+Description: 2048 in your terminal
+
+Package: iphoneports-base
+Version: 23
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-dash, iphoneports-coreutils, firmware (>= 3.0)
+Conflicts: iphoneports-chsh
+Replaces: iphoneports-chsh
+Filename: ./debs/base.deb
+Size: 5358
+MD5sum: bd8d1884bb08a88d5302f38de68fb072
+SHA1: edcd09046c5eba07234ccdcb78ff11e61e666749
+SHA256: b68786176ebe126aa3912e33e2d991b041e1b4d2cd5c44575f7565e364adbf6b
+Section: System
+Description: iPhonePorts base
+
+Package: iphoneports-bash
+Version: 5.2.37-1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-ncurses, iphoneports-readline
+Filename: ./debs/bash.deb
+Size: 433332
+MD5sum: 42aa5fc5956ce8993a435b3f02ac3915
+SHA1: 8849aa060bd39e90aee4fb839a74c6c9543f8755
+SHA256: 57af4e5269b39eb8710585c7c924d45af4165ece98dde5b0e6be40f0d2b9ec69
+Section: Terminal_Support
+Homepage: http://www.gnu.org/software/bash/
+Description: The GNU Bourne Again shell
+
+Package: iphoneports-bash-completion
+Version: 2.14.0
+Architecture: all
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-bash
+Filename: ./debs/bash-completion.deb
+Size: 226444
+MD5sum: 40b149c5a271142244db93ec00a5fbff
+SHA1: 4dc715f8fbbeaad8ecc9ee8080b65fb60590c611
+SHA256: 069c6b88b622e4679a6e0723578c64225272ed44627e11cfea6312b1f41d1061
+Section: Terminal_Support
+Description: a collection of command line command completions for the Bash shell
+
+Package: iphoneports-bc
+Version: 7.0.3
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/bc.deb
+Size: 67364
+MD5sum: c7770cd517bfd13e6733a76e8adb6eef
+SHA1: 4dc20f4ac86cdb97c0c25df7c6a1755108f949d5
+SHA256: 26467361f6a3b781226cf2c6a3ba9eebe6145336903b5ae8db1523dee58243ef
+Section: Utilities
+Description: An arbitrary-precision decimal arithmetic language and calculator
+
+Package: iphoneports-boxes
+Version: 2.3.1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-ncurses, iphoneports-libunistring, iphoneports-pcre2
+Filename: ./debs/boxes.deb
+Size: 78290
+MD5sum: 870632939f1ca7177077f3b5ce87d8fe
+SHA1: a0195dc38298d0d75828198ea3af4523bb7a9cdf
+SHA256: da3e0d5c625f7dbb3d11267c6a611f0db7f7deaf1381fc3319a96de0b43584c3
+Section: Utilities
+Description: Command line ASCII boxes unlimited!
+
+Package: iphoneports-brotli
+Version: 1.1.0-1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/brotli.deb
+Size: 428164
+MD5sum: d005cad1e77aed4e1feadbda54eaff1a
+SHA1: c634d143a398e968b7157a4ddc2932a3c189d62a
+SHA256: 349f487679812718a63ad290504d2c621ae5371b7af303788e321669f696bca1
+Section: Archiving
+Description: A generic-purpose lossless compression algorithm
+
+Package: iphoneports-bzip2
+Version: 1.0.8-5
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-diffutils, iphoneports-less, iphoneports-grep
+Replaces: iphoneports-grep
+Filename: ./debs/bzip2.deb
+Size: 56662
+MD5sum: 9c36a56b36674f4e8845ed52a1144d0c
+SHA1: dcc215e58089145afd8a6ec83c27a2283f5bc60f
+SHA256: b27cc233e5993067b7a9ea63efe2f00a9f37b209351612bc3f734d09ace94ea4
+Section: Archiving
+Homepage: http://www.bzip.org/
+Description: compression that's slightly better than gzip
+
+Package: iphoneports-bzip3
+Version: 1.5.1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/bzip3.deb
+Size: 49008
+MD5sum: 366e42abeff3210195b9c6ad3f39fcb7
+SHA1: 559a8b9ab4ab126f6596b815d14690cc5f05898b
+SHA256: 54afe6cf7187a3c53cb3c554f8a66d43b94a283ba728158c5414111f7d49a815
+Section: Archiving
+Description: A better and stronger spiritual successor to BZip2.
+
+Package: iphoneports-c-ares
+Version: 1.34.4
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/c-ares.deb
+Size: 132300
+MD5sum: 5983618c72bc2aece9791cf79c6ede24
+SHA1: c25a6f037ca7ac52049b4bff8b3fffc1c10f3301
+SHA256: e0b9427322723745a784bbbb0222e7647457a5e7842730a31d0ff9f5598a6a3b
+Section: Development
+Description: A C library for asynchronous DNS requests
+
+Package: iphoneports-ca-certificates
+Version: 2025-02-25
+Architecture: all
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Replaces: iphoneports-libressl
+Filename: ./debs/ca-certificates.deb
+Size: 135340
+MD5sum: bd0ce1fb04fcc389f5d4ebea5c158933
+SHA1: 8233022a4320dd30a2a161e87e41cf4ed49c575c
+SHA256: 2b183bc22724fd94eb197a3b7dee0f102a13d579fec5ca3e3199669a4274f488
+Section: Security
+Description: Common CA certificates
+
+Package: iphoneports-ccache
+Version: 4.10.2-2
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-libc++, iphoneports-zstd, iphoneports-xxhash
+Filename: ./debs/ccache.deb
+Size: 641490
+MD5sum: 5cc5632edb28c6f517552335ac593a5d
+SHA1: 1cfbf57bea534caca29068b5d955496e234210fc
+SHA256: 92bf3ca05513b4349c6dca0fff854ce80bc66b7f22cb8d142dc513864be87f2a
+Section: Development
+Description: Compiler cache that speeds up recompilation by caching previous compilations
+
+Package: iphoneports-cctools
+Version: 1021.4-ld64-762
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-libc++, iphoneports-llvm, iphoneports-libtapi, iphoneports-xar
+Filename: ./debs/cctools.deb
+Size: 3626370
+MD5sum: a958aafae3520314dc0eae5e85187305
+SHA1: ad88723cc9e09646bc1aae4d947f570d6dc74893
+SHA256: bda61edd8f9c63a7d06921b53ad3a6d7dc8791baa6c020354cfb641af169b0f1
+Section: Development
+Description: Mach-O binary utilities
+
+Package: iphoneports-clang
+Version: 19.1.7-3
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-libc++, iphoneports-llvm, iphoneports-compiler-rt, iphoneports-libxml2, iphoneports-zlib, iphoneports-cctools
+Filename: ./debs/clang.deb
+Size: 51889186
+MD5sum: 32f19e43ac5d319e8d08984c7768498f
+SHA1: df6961cdd1cdf8198aa7432e3942d43a1436dfd5
+SHA256: 1ea776020325b0c340c94f8d72673375febeea10800edfef80bdc933c9e2bdec
+Section: Development
+Description: LLVM C/C++/ObjC/ObjC++ compiler
+
+Package: iphoneports-cmake
+Version: 3.31.6
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-libc++, iphoneports-libuv, iphoneports-zlib, iphoneports-libarchive
+Filename: ./debs/cmake.deb
+Size: 16277200
+MD5sum: e284e32e3142b82c68a82708f97ff699
+SHA1: b33f692c1c4fc05dde7c953a1f8fdcc0b95038e4
+SHA256: b2d7655029017312602b6cba8cdd4007817cdefbca583a196d573195588fbc9e
+Section: Development
+Description: A cross-platform open-source make system
+
+Package: iphoneports-cmatrix
+Version: 2.0-1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-ncurses
+Filename: ./debs/cmatrix.deb
+Size: 7392
+MD5sum: 887c351393843baa8a41d26ea3638259
+SHA1: c5dd532aef35d70549d12217efb38d200878ea74
+SHA256: 3e8d42e74f2b48dda3f7d4312cb04143e252c0ac4a818989fba7d829ed62b509
+Section: Utilities
+Description: Terminal screen saver based on the movie "The Matrix".
+
+Package: iphoneports-compiler-rt
+Version: 19.1.7-3
+Architecture: all
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/compiler-rt.deb
+Size: 24240
+MD5sum: 4f6f62c9580e86f6a3d2b497b095b5bf
+SHA1: d60a30e494bc22f27c22fdbb3d06734f9080dbec
+SHA256: 17e974e58fd029ca9b188b374fde2ab6e415a2d7880c2c0cb23ea4205721f1ea
+Section: Development
+Description: Compiler runtime libraries for clang
+
+Package: iphoneports-coreutils
+Version: 9.6
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-libressl, iphoneports-gmp
+Filename: ./debs/coreutils.deb
+Size: 663364
+MD5sum: b3615b5fb6177a97f09967ba9bd63bc5
+SHA1: 38fb91e03eba1176ff318922ba81c3c954e46698
+SHA256: d13c20bec044077ee4b8d286222af8badd1f408a487b87ba59b035dbe3774b18
+Section: Utilities
+Homepage: http://www.gnu.org/software/coreutils/
+Description: The basic file, shell and text manipulation utilities of the GNU operating system
+
+Package: iphoneports-cppcheck
+Version: 2.16.0
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-libc++, iphoneports-pcre, iphoneports-python
+Filename: ./debs/cppcheck.deb
+Size: 2637684
+MD5sum: 972900c8d837583cf0d425736a97d51d
+SHA1: 424e38b0d5aa9be70fec8bf2595031ea526e8bca
+SHA256: 4bd366c30d81c662c8342d3a78f395b26924caa62c00f26f8a8345c56719ad70
+Section: Development
+Description: A tool for static C/C++ code analysis
+
+Package: iphoneports-curl
+Version: 8.12.1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-libressl, iphoneports-ca-certificates, iphoneports-zstd, iphoneports-zlib, iphoneports-libssh2, iphoneports-nghttp2, iphoneports-nghttp3, iphoneports-ngtcp2, iphoneports-libpsl, iphoneports-libidn2, iphoneports-brotli
+Filename: ./debs/curl.deb
+Size: 611366
+MD5sum: 4dca6a50f44b821538b18c7578a730d1
+SHA1: e9bc78ce9ce43d2256a9197de4276a43e6a1b293
+SHA256: 19c893d82319c787a11325b485b44b79afa44add28fb78efecfb9258d71bede2
+Section: Networking
+Description: An URL retrieval utility and library
+
+Package: iphoneports-dash
+Version: 0.5.12-2
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/dash.deb
+Size: 59808
+MD5sum: 0bc7725ca6b6211c8a1171f5090cfe47
+SHA1: e68dc3d98150b0fcf00f7ceba3da5e833599340a
+SHA256: 8a2b87c7b5ea5d118541d58eeb57c55eba904d3540431c6ef028edc0515a537a
+Section: Terminal_Support
+Description: POSIX compliant shell that aims to be as small as possible
+
+Package: iphoneports-dav1d
+Version: 1.5.1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/dav1d.deb
+Size: 350024
+MD5sum: 45079ced1fe1a3b7f8066316cb1d02ee
+SHA1: 38ebb2bc5fdc02b7f934dd89ade8f127511ba528
+SHA256: 1e0eee5ae09cb08dd36e8c863457d0426e73cdc86270a93cdedf41bd28b45d5d
+Section: Development
+Description: AV1 cross-platform decoder focused on speed and correctness
+
+Package: iphoneports-diffutils
+Version: 3.11
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/diffutils.deb
+Size: 191370
+MD5sum: 856af3ef61e4692d15e102b751b11740
+SHA1: 1afdb0ce0de2c339dd44bfd34826449adecf15a1
+SHA256: 2d0ad6e17bfd238551f266e4006d38e3f30d4dfad95b077a45ca1cfc7b3c5197
+Section: Development
+Homepage: http://www.gnu.org/software/diffutils/
+Description: compare two files for differences
+
+Package: iphoneports-distcc
+Version: 3.4-2
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-popt, iphoneports-clang
+Filename: ./debs/distcc.deb
+Size: 128356
+MD5sum: f007289ffc5c61f223b7d49255996412
+SHA1: 4541e2a9fb7f5b21ce3d6ef7b02e8cf5a28c137e
+SHA256: f8a59c9a7b51f0e2db76e65dfdfa288e2748aea6c812e1d66bd28c57d80e6e6f
+Section: Development
+Description: Distributed compilation service for C, C++ and Objective-C
+
+Package: iphoneports-doas
+Version: 6.3p12-3
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-pam
+Filename: ./debs/doas.deb
+Size: 13984
+MD5sum: 11c0e91f52c0220f1a8b0f7ddf9c11b9
+SHA1: c1f3d62f7efc4cb5ba9f3ce4eb964dbc11015eb6
+SHA256: c81fd11e65dea00d8c905eff687350a284dd8a4f4f8e7db0b24ea6dd4dc0a9e9
+Section: Administration
+Description: a minimal replacement for sudo
+
+Package: iphoneports-dos2unix
+Version: 7.5.2
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/dos2unix.deb
+Size: 38296
+MD5sum: 418328b727c2cd7a08e06fdf603cde09
+SHA1: a97ecf44d3638a3a4d9f21596ea346ee8f6b4584
+SHA256: 3a02be5aa7565bba0798bfd4719426f95311f7b063ee75c8ebe55ce85e05083a
+Section: Utilities
+Description: DOS/Mac to Unix and vice versa text file format converter.
+
+Package: iphoneports-dpkg
+Version: 1.22.15-1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-libmd, iphoneports-zlib, iphoneports-xz, iphoneports-bzip2, iphoneports-gtar, iphoneports-gzip
+Replaces: iphoneports-base, dpkg
+Filename: ./debs/dpkg.deb
+Size: 880072
+MD5sum: cde3453aca6ed307128d710e0bf775b7
+SHA1: f753061ad8cffe47270224dee5614c88f2355fd0
+SHA256: fd5dc7e86e8ed349dea40899099be21b8a3a597457eed56fecb7f96afeaaaa0b
+Section: Packaging
+Description: The Debian Package Manager tools
+
+Package: iphoneports-duktape
+Version: 2.7.0
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/duktape.deb
+Size: 217450
+MD5sum: dc10cef36666fe7197a36cf4537796ed
+SHA1: 96505c267545597146bd48981e7343a88ea324e3
+SHA256: bf7ca1c606dc38ef75b1babe4ddd3b318e7b5e33f5334e487a359ead88185053
+Section: Scripting
+Description: Embeddable Javascript engine
+
+Package: iphoneports-ed
+Version: 154-2
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/ed.deb
+Size: 21930
+MD5sum: 59df4c4e995cfa01164aa8df587029f1
+SHA1: d3bac11422cca46a75ce83d127a43ca579df891f
+SHA256: df938c821d3b4d946a38292f8baec6ef6eba02df79b786cc5154a340c979261b
+Section: Text_Editors
+Description: A line-oriented text editor
+
+Package: iphoneports-ffmpeg
+Version: 7.1-3
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-zlib, iphoneports-xz, iphoneports-bzip2, iphoneports-libxml2, iphoneports-libressl, iphoneports-dav1d, iphoneports-libwebp
+Filename: ./debs/ffmpeg.deb
+Size: 10412046
+MD5sum: 3b45c09640cbe0abd18bdb03a9bbacd1
+SHA1: 53ff156a25a5aeeda56c45a7d07ff1aaffa75b17
+SHA256: e89c4cc0a2d8ca60bd987f5d70954b64966355e6a392a85ea79bfe1ac73a3915
+Section: Multimedia
+Description: Complete solution to record, convert and stream audio and video
+
+Package: iphoneports-file
+Version: 5.46
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-xz, iphoneports-bzip2, iphoneports-zlib, iphoneports-zstd
+Filename: ./debs/file.deb
+Size: 530404
+MD5sum: c98aa97a9af094771e34ab35446080f1
+SHA1: ba690994544be198e26e3bcf1fc415d61e3cf1cd
+SHA256: 15c97ee25908e0383534a69b78368bb873f2b8cc4c80919f815fe7b26aae1b94
+Section: Utilities
+Description: guesses the type of a file from contents
+
+Package: iphoneports-findutils
+Version: 4.10.0
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-bash, iphoneports-sed
+Filename: ./debs/findutils.deb
+Size: 294366
+MD5sum: c80f741e2d5707d3fab86ebc08a50a41
+SHA1: 35d28defe16ea623d334fee76031805411253d77
+SHA256: 9043c3f2c6ece8c2ccccebac17c1e76380eed4d10885fc18d7045c6dcc3a9b8b
+Section: Utilities
+Homepage: http://www.gnu.org/software/findutils/
+Description: indexes and searches filesystems
+
+Package: iphoneports-gawk
+Version: 5.3.1-1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-readline
+Replaces: iphoneports-awk
+Filename: ./debs/gawk.deb
+Size: 406174
+MD5sum: 9cbe5541a89ddc1ecf8dacaa91a0dac1
+SHA1: 85f3402193a3240f8fe3e3f62ea7138817280541
+SHA256: aded015c78992b84d718f0f11d67d66a4edeee0c95d1431b22efd9edce696e14
+Section: Utilities
+Homepage: http://www.gnu.org/software/gawk/
+Description: pattern scanning and processing language
+
+Package: iphoneports-getusedmem
+Version: 5
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Replaces: iphoneports-neofetch
+Filename: ./debs/getusedmem.deb
+Size: 2084
+MD5sum: 872cef55369081c92f00a8cb6ddf5c14
+SHA1: 3ea78f38f7629397ed5972aace509eae0c12a845
+SHA256: a86b8e232fc2f7c45d6b243b9c96ee602ad9205f7d66fa3de27254330f1625d1
+Section: Utilities
+Description: prints used memory in kb, for use in scripts
+
+Package: iphoneports-git
+Version: 2.48.1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-curl, iphoneports-libressl, iphoneports-grep, iphoneports-pcre2, iphoneports-zlib
+Filename: ./debs/git.deb
+Size: 10939470
+MD5sum: 18876be6de5c2240e51b8e7ce046198e
+SHA1: 6060dbe7a4ee45a99e7c95ecbb4c9879d7c96d38
+SHA256: e84c0a5c81f0116c899a9efa64832eb4c076e89918639ffd82fac225d3d4aeae
+Section: Data_Storage
+Description: fast content-addressable filesystem
+
+Package: iphoneports-gmp
+Version: 6.3.0-1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/gmp.deb
+Size: 254936
+MD5sum: ef90afb8dfe6246b0cb32dd1521cefc1
+SHA1: 11d35e03170af2045965193f00d8bec70f49c30e
+SHA256: 4b2d0a67f41ee0ea3853e05518e24b3322848efcb8bd4023ca8a12a02ec4ef46
+Section: Development
+Homepage: http://gmplib.org/
+Description: A free library for arbitrary precision arithmetic
+
+Package: iphoneports-gptfdisk
+Version: 1.0.10-1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-ncurses, iphoneports-popt
+Filename: ./debs/gptfdisk.deb
+Size: 140468
+MD5sum: 117cfabd732c49114cb60360b08b6ef9
+SHA1: 64a08d6f91b79a3c04c69977b0d8c743db63769f
+SHA256: 036cd5d641f14a9863ab7778504aedfed9dc7c51486f393d2f422fa5d581d9df
+Section: Utilities
+Description: A text-mode partitioning tool that works on GUID Partition Table (GPT) disks
+
+Package: iphoneports-grep
+Version: 3.11-2
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-pcre2
+Filename: ./debs/grep.deb
+Size: 130726
+MD5sum: 985bfe62e8cba8c5ec23d334ef4ef193
+SHA1: 09bf1d90b4b06a3d3f009711ebfd8f46e43db023
+SHA256: 2a342d7049b2a6c01d237d4b593da4f276ff301bbc311a7cd34e334e6c25863e
+Section: Utilities
+Homepage: http://www.gnu.org/software/grep/
+Description: searches files for regular expressions
+
+Package: iphoneports-gtar
+Version: 1.35
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/gtar.deb
+Size: 247576
+MD5sum: 8a318449f615dd2f28567a81acfb80bc
+SHA1: 4562dc5d3c313d9275800b0641e6abfbd588a6e3
+SHA256: 75a9dca6f2e50ef5631a9ea132f8260a31f5e7dc7b5d6dbd8fd7ad9beed77ed6
+Section: Archiving
+Homepage: http://www.gnu.org/software/coreutils/
+Description: GNU implementation of the tar command
+
+Package: iphoneports-gzip
+Version: 448.0.3-2
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-sed, iphoneports-grep, iphoneports-bzip2, iphoneports-xz, iphoneports-zlib
+Replaces: iphoneports-grep
+Filename: ./debs/gzip.deb
+Size: 26306
+MD5sum: 70a5021e16e513eb58ffefbb5ee6df58
+SHA1: 1438686a98359e48e8a1a3016a16b36ceb8dda0f
+SHA256: a8f8de9a21d3311403aa13ff115cc0dfd4d1156f13a796e9b7512dfcc9c37d6f
+Section: Archiving
+Homepage: http://www.gzip.org/
+Description: the standard Unix compression algorithm
+
+Package: iphoneports-hexedit
+Version: 1.6-1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-ncurses
+Filename: ./debs/hexedit.deb
+Size: 19612
+MD5sum: bf5c1597b0370c5bb52fa54ca9106f67
+SHA1: 2cd096f66a170d18f6b706a4e4babc6432c27e04
+SHA256: acaa08a4d5f8dbdff42813dbcd4fda12f1538ca0dde2b79baf183e540a9d9748
+Section: Text_Editors
+Description: View and edit files in hexadecimal or in ASCII
+
+Package: iphoneports-hostname
+Version: 240.100.15-1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/hostname.deb
+Size: 2428
+MD5sum: f541665a5b5064d51460c17d571838df
+SHA1: 46c72888fbbb35cb871743f52b1da94f8dfe1e4e
+SHA256: a0546d32d726de24e4ceef450d79bd72d08237f2c31384b544d1d7957514a86c
+Section: Utilities
+Description: A utility for setting or printing the name of the current host system
+
+Package: iphoneports-htop
+Version: 3.3.0-1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-ncurses
+Filename: ./debs/htop.deb
+Size: 89300
+MD5sum: 30e72163d4c4248906056b20cedbfa54
+SHA1: 6fad19a07244804e97654eba22d469917f4803ab
+SHA256: c83a625f12468b55b9aca49a263ce15be6c049a79b6b1dfddd610c1b0b5cebc6
+Section: Utilities
+Homepage: http://htop.dev
+Description: interactive processes viewer
+
+Package: iphoneports-ideviceinstaller
+Version: 1.1.1-5
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-libimobiledevice, iphoneports-libplist, iphoneports-libzip
+Filename: ./debs/ideviceinstaller.deb
+Size: 15416
+MD5sum: 34fa2b8e2468dd9af73069ab4bbf0382
+SHA1: 11c8e0ecab1c2ed1dc712a6bc105ca78d84ac7c4
+SHA256: 165bbb8cd4777cebd90b726d7015b84d8593b44f4ee1e06b4a9294babf7c6d51
+Section: Utilities
+Description: Manage apps of iOS devices
+
+Package: iphoneports-idevicerestore
+Version: 1.0.0-8
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-libimobiledevice, iphoneports-libzip, iphoneports-curl, iphoneports-libressl, iphoneports-libplist, iphoneports-zlib, iphoneports-libirecovery, iphoneports-libimobiledevice-glue, iphoneports-libtatsu
+Filename: ./debs/idevicerestore.deb
+Size: 103296
+MD5sum: b14ad45ce47f30c418165ec20eba7c13
+SHA1: 85b86b09af22c4cd53303b1949451fec65a7c4ea
+SHA256: 19d2a69a329f895aeec092b4e3f1d4422dd01f76c54f7116355da873253c7669
+Section: Utilities
+Description: Restore/upgrade firmware of iOS devices
+
+Package: iphoneports-ifconfig
+Version: 325-2
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/ifconfig.deb
+Size: 11762
+MD5sum: 7f0a3128940f5c833263f8f890de4810
+SHA1: 5cca94cf189ee8dfa3d13a38bcbc5d6501278b8e
+SHA256: ff7ba722a74569eefee59da2e2866335fc73043d71938c304c015974592461b9
+Section: Utilities
+Description: A utility for configuring network interface parameters
+
+Package: iphoneports-imagemagick
+Version: 7.1.1.44
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-libressl, iphoneports-zlib, iphoneports-xz, iphoneports-bzip2, iphoneports-libzip, iphoneports-libxml2, iphoneports-libpng, iphoneports-libjpeg-turbo, iphoneports-libwebp
+Filename: ./debs/imagemagick.deb
+Size: 2547608
+MD5sum: 70252767375ee4a3b8bf4b73b93b9eb1
+SHA1: b1820a2599d3315a810d631de0353115137580a9
+SHA256: b08f62fc97e1c9b5e28d7adcb1db1be328266c43eece2791d3e48d8011e3ea3d
+Section: Multimedia
+Description: An image manipulation program
+
+Package: iphoneports-killall
+Version: 302.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/killall.deb
+Size: 5396
+MD5sum: 7948ea1ef94d2bdcc22272531a37de31
+SHA1: 14ecdf2dfceb0dedb462e18a960b4d735a4e815c
+SHA256: a0b7457ce7241cb42c6b3a2a678c227a871f9388a0bc0a13e3c54a1d281edeb0
+Section: Utilities
+Description: A utility for killing processes by name
+
+Package: iphoneports-ldid
+Version: 2.1.5-procursus7-5
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-libplist, iphoneports-libressl, iphoneports-libc++
+Filename: ./debs/ldid.deb
+Size: 68032
+MD5sum: 4a2d97cbca5992abdc94b519af43257b
+SHA1: d811a7add076f9983c89e3cf7eb3ca7b238f4abb
+SHA256: 307425270c15a3ebd3b19c980731f85a4f4b3f86dd1d1d5f0925d020f8082fc3
+Section: Development
+Description: Link Identity Editor. Put real or fake signatures in a Mach-O.
+
+Package: iphoneports-less
+Version: 668
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-ncurses, iphoneports-pcre2
+Filename: ./debs/less.deb
+Size: 120768
+MD5sum: 70050177bdb8dad0c4b7311989b9adc0
+SHA1: 8c54ae38131d78c58a9fd4200da7839eb7bba2d5
+SHA256: b80cb4c1560425fd5a28bc3acf098e5bca8eae933cc7acca9da331ed978e14e5
+Section: Utilities
+Description: provides less information than more does
+
+Package: iphoneports-libarchive
+Version: 3.7.7
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-libxml2, iphoneports-xz, iphoneports-zlib, iphoneports-bzip2, iphoneports-zstd, iphoneports-lz4
+Filename: ./debs/libarchive.deb
+Size: 509024
+MD5sum: 4e4aa92717664b6c0861d544512278a5
+SHA1: 6882ac238266d21aaac2dc05abbbf6e9a415bfa9
+SHA256: 2811af45a80887a6653d19589cbdc6693a27bf74b9c154db35d31b9b892bef54
+Section: Archiving
+Description: Multi-format archive and compression library
+
+Package: iphoneports-libc++
+Version: 19.1.7-2
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/libc++.deb
+Size: 1535280
+MD5sum: b39875eb0db16a68aec6e060bfc4c62e
+SHA1: 9450708219ed3423524bfbee88ef4328507d44c3
+SHA256: 44b4549361dc0d403da27dc8a4b861cd9332c23fcaedabb732709e646e45cc4d
+Section: Development
+Description: LLVM C++ standard library
+
+Package: iphoneports-libideviceactivation
+Version: 1.1.1-4
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-libimobiledevice, iphoneports-libplist, iphoneports-curl, iphoneports-libxml2
+Filename: ./debs/libideviceactivation.deb
+Size: 18662
+MD5sum: 402f22c8a85d7aa4c3361712726cef14
+SHA1: 451e1aa4bfd427ef926c03bc3773fd8527d8975b
+SHA256: ec35cbbcad137c63f91048ca7fab2a7032cd1e73891811be4ac76a23bdca4547
+Section: Utilities
+Description: A library to handle the activation process of iOS devices
+
+Package: iphoneports-libidn2
+Version: 2.3.7
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-libunistring
+Filename: ./debs/libidn2.deb
+Size: 126564
+MD5sum: 050707ff239c71f26a1578c08167dd61
+SHA1: 99e2d6b470594439c93e2bb7a6e64a7cc300363f
+SHA256: 29e8754091e94a22c273249e53fd5c1cd81c68e342b6a66ac4cd449ab6c900f9
+Section: Development
+Homepage: http://www.gnu.org/software/libidn/
+Description: A free software implementation of IDNA2008, Punycode and TR46
+
+Package: iphoneports-libimobiledevice
+Version: 1.3.0-9
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-libusbmuxd, iphoneports-libplist, iphoneports-libressl, iphoneports-usbmuxd, iphoneports-libimobiledevice-glue, iphoneports-readline, iphoneports-libtatsu
+Filename: ./debs/libimobiledevice.deb
+Size: 322568
+MD5sum: b4b839251b16e01dd7c182b1e817823c
+SHA1: 3e90b6286be67ed32eab5ad134aec92f2cd59a49
+SHA256: 15db1fbc3c0623238c16e96793473a83687c50b6c07a217330bd954742c80a55
+Section: Utilities
+Description: A cross-platform protocol library to communicate with iOS devices
+
+Package: iphoneports-libimobiledevice-glue
+Version: 1.3.1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-libplist
+Filename: ./debs/libimobiledevice-glue.deb
+Size: 36698
+MD5sum: c1a7e4555b17f0c0520604ce5305b519
+SHA1: a83a0931ac2144af130eab443dab48562e86375d
+SHA256: 95760e71e2775dcca927917b99b5d215b216bafec6bd8b77a0f78bdf10b0f748
+Section: Development
+Description: A library with common code used by libraries and tools around the libimobiledevice project
+
+Package: iphoneports-libirecovery
+Version: 1.2.1-1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-libusb, iphoneports-readline, iphoneports-libimobiledevice-glue, iphoneports-libplist
+Filename: ./debs/libirecovery.deb
+Size: 36398
+MD5sum: dcdac877e9e02c7ad656476c1ce061e0
+SHA1: f4f3937f36db6163d16287f82a97724ecaf770a4
+SHA256: 53d68fb4d9df63b15042d96d4dfbe7ee741eff285091f28f879eebf7e4a9d098
+Section: Utilities
+Description: Library and utility to talk to iBoot/iBSS via USB on Mac OS X, Windows, and Linux
+
+Package: iphoneports-libjpeg-turbo
+Version: 3.1.0
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/libjpeg-turbo.deb
+Size: 695186
+MD5sum: d812dd47542b63706d4bf9c376dde68f
+SHA1: 2645ab9483ed678eea0b9d85f0cce814917592e9
+SHA256: d7e466cb3ee2e0f3e92dfbb2de34c5e6fc2d87dd9920ba1b91f891425a0dbf44
+Section: Development
+Description: JPEG image codec with accelerated baseline compression and decompression
+
+Package: iphoneports-libmd
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/libmd.deb
+Size: 27864
+MD5sum: 4adda2edebba1ebc19b24d6c50602e4d
+SHA1: 6ad11bcb16d64513b0163998bc9ccfe6d0208282
+SHA256: 7db8a5c1033b72c4309661a4c11d78ab1028a1bee91a7019efb2845dd417d194
+Section: Development
+Description: Message Digest functions from BSD systems
+
+Package: iphoneports-libpcap
+Version: 1.10.5
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/libpcap.deb
+Size: 174034
+MD5sum: 6039c9101f1ddff37e9f750b853f9576
+SHA1: 4bf08f1072942e96b4b4aed2cd1bbb8b70112bbe
+SHA256: 10a7a938d5336d34b8a6e2673d56752cccd25f45492656375fcd77f2f60dd667
+Section: Development
+Description: A system-independent interface for user-level packet capture
+
+Package: iphoneports-libplist
+Version: 2.6.0
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/libplist.deb
+Size: 91284
+MD5sum: da0b55789f430382751b75621fa9b765
+SHA1: 6fc93f4906822316a098c38a0015ddd69154dabe
+SHA256: 11f267d3d0421c3fd7e3864c31baff4e8f01d950189811ccf1df9f6a189fc879
+Section: Development
+Description: A library to handle Apple Property List format in binary or XML
+
+Package: iphoneports-libpng
+Version: 1.6.47
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-zlib
+Filename: ./debs/libpng.deb
+Size: 180736
+MD5sum: 0d1aec21e678ab6184a10d749a60c90e
+SHA1: cde367eabab2ad088b6ab36e587d268ba5a436bc
+SHA256: e3d58d838b79d8238744668e3972b8bf7c446d9b17adad65b772400fb9c4bf4b
+Section: Development
+Description: A collection of routines used to create PNG format graphics files
+
+Package: iphoneports-libpsl
+Version: 0.21.5-1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-libunistring, iphoneports-libidn2
+Filename: ./debs/libpsl.deb
+Size: 62802
+MD5sum: 4028e55ad0434dca3e4733da58cef732
+SHA1: ea8f3ca33204a295a7fe22f6356a057f107405e5
+SHA256: 6dcdca510e4ca1ebed55579f5bf6d1ffd5e20478632fa80857dc22b4771a01c2
+Section: Development
+Description: Public Suffix List library
+
+Package: iphoneports-libressl
+Version: 4.0.0-1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-ca-certificates
+Filename: ./debs/libressl.deb
+Size: 1268756
+MD5sum: 131f2d8000431c207511640a63c75f40
+SHA1: ffdbfcdf3bed1d329e1f06c428ae42d86ddefd6e
+SHA256: c86bb6f173dd909bca3dbe716668d397b69bf057583173526e3097350d4fd2c1
+Section: Security
+Description: Free version of the TLS/crypto stack forked from OpenSSL
+
+Package: iphoneports-libsodium
+Version: 1.0.20
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/libsodium.deb
+Size: 189114
+MD5sum: a0a9f638c5e0d2f64be991fb99b9e4ce
+SHA1: afab8824be74e18046235fb2501432f5de3147f5
+SHA256: e304fb97361b0bf32421c3de6b173f54e2592d3333556a739d81755e5799cf25
+Section: Development
+Description: A modern, portable, easy to use crypto library
+
+Package: iphoneports-libssh2
+Version: 1.11.1-1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-zlib, iphoneports-libressl
+Filename: ./debs/libssh2.deb
+Size: 141414
+MD5sum: 17d732b3a25b7bcc85b427960a1af2b2
+SHA1: 8c3ca748cefec54b7ba41beae77965eb0dfe1ec8
+SHA256: 3f907054313cc8156b1543306de8465b9670cb79bf80ea506e437bd4b1e149bd
+Section: Development
+Homepage: http://www.libssh2.org/
+Description: A library implementing the SSH2 protocol
+
+Package: iphoneports-libtapi
+Version: 1300.6.5-1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-libc++, iphoneports-ncurses
+Filename: ./debs/libtapi.deb
+Size: 248970
+MD5sum: 0097efd03c417e4e9db8fa31e381388f
+SHA1: 78830030eb1f7a6c92804e947e40c87022e731ff
+SHA256: ece91ae81d2afb5b737568d2792aef47bdbd5f7344bfea8b7262fd8f5ed707e6
+Section: Development
+Description: Text-based Application Programming Interface frontend
+
+Package: iphoneports-libtatsu
+Version: 1.0.4
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-libplist, iphoneports-curl
+Filename: ./debs/libtatsu.deb
+Size: 18336
+MD5sum: 4f2df20666bc5ee5d0735014ab53b833
+SHA1: 176277c5d9f2b61ca9565c1ca53b2639e0ee6d4c
+SHA256: a52509b0d57901d08ae59de120f89efdfc4d84f2662a01b30c6cf2f721d28b78
+Section: Development
+Description: Library handling the communication with Apple's Tatsu Signing Server (TSS)
+
+Package: iphoneports-libtls
+Version: 4.0.0
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-libressl
+Replaces: iphoneports-libressl
+Filename: ./debs/libtls.deb
+Size: 34790
+MD5sum: 3da935fcf13475facc48418137cfc71d
+SHA1: f66a1b4d738e2c1d0d989cb80605efeb350a550a
+SHA256: 089008f003f2d282e790a430898c40014659616aa90ee259161becc736604657
+Section: Security
+Description: A new TLS library, designed to make it easier to write foolproof applications
+
+Package: iphoneports-libunistring
+Version: 1.3
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/libunistring.deb
+Size: 853134
+MD5sum: f0ea510284bd581d3c0db7f8dfd3ad23
+SHA1: ef05a8e70c332ea51dd222ebb6054389d9cb8263
+SHA256: 927049a8fcd19d7af039dc229b862936a7688c7826961b69217bcf7fa8f62064
+Section: Development
+Homepage: http://www.gnu.org/software/libunistring/
+Description: Library for manipulating Unicode strings and C strings
+
+Package: iphoneports-libusb
+Version: 1.0.27
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/libusb.deb
+Size: 75334
+MD5sum: a32687ff5b99f98e1948de6f09264e60
+SHA1: 376348bd1903f29f2f76c2998dede9af55bd5559
+SHA256: 687f58d81dc0c26e9fb85cf46f803191b73290b6546b3cf0cc92cad8c12e39f8
+Section: Development
+Description: A cross-platform library to access USB devices
+
+Package: iphoneports-libusbmuxd
+Version: 2.1.0
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-libplist, iphoneports-libimobiledevice-glue
+Filename: ./debs/libusbmuxd.deb
+Size: 28458
+MD5sum: 7052a7357802b9f59580ff766f389b10
+SHA1: 40a6187032e1f197aa3ae76e723619e13d5428d1
+SHA256: 36a31b62d9cc4889872597ba689e3adfcb460d20df9d13ec83e5bc9f2294d8f5
+Section: Development
+Description: A client library to multiplex connections from and to iOS devices
+
+Package: iphoneports-libuv
+Version: 1.49.1-3
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/libuv.deb
+Size: 106490
+MD5sum: 37dd8a44899fbcfeafa1ddb46bf79598
+SHA1: 8f5fda3af07ed5a351dacc872bceea2124d179e3
+SHA256: 80a6100baa61224112bdeeed77d22473b4ffdf04575b89ee4058c7d08833ab8c
+Section: Development
+Description: Cross-platform asynchronous I/O
+
+Package: iphoneports-libwebp
+Version: 1.5.0
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/libwebp.deb
+Size: 426300
+MD5sum: 5cf6d5de8832c2c56b192767c25442e9
+SHA1: fe239c6113aec012cabb22833c0ad2917ea643b2
+SHA256: 4dcdcbf2ccb4d2c2107f29c45473018171e63e7fa413f62ccb8f4a70c42ec763
+Section: Development
+Description: WebP library and conversion tools
+
+Package: iphoneports-libxml2
+Version: 2.13.6
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-zlib, iphoneports-xz
+Filename: ./debs/libxml2.deb
+Size: 728080
+MD5sum: 1e735843938ce379f1598781c0170ce8
+SHA1: a91c454b6cc71b57fe83fec025a74892684a4b80
+SHA256: 8c5be35817d0bdb97744dc05d8a94d4d1109f9963ab41cbe325dfb05f5f288e8
+Section: Development
+Description: XML C parser and toolkit
+
+Package: iphoneports-libzip
+Version: 1.11.2
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-xz, iphoneports-libressl
+Filename: ./debs/libzip.deb
+Size: 100174
+MD5sum: 19715715b20476076e56b7ce3d6428e5
+SHA1: 82328793abdcb2bf0cff29c865f0aa9657b6ded3
+SHA256: 0e8c20d55295d9e2c4993f933474b7dfd49c79f9418fba8a46db9b45d7d56d1f
+Section: Development
+Description: A C library for reading, creating, and modifying zip archives.
+
+Package: iphoneports-lighttpd
+Version: 1.4.76-3
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-libressl, iphoneports-zlib, iphoneports-bzip2, iphoneports-zstd, iphoneports-brotli, iphoneports-lua, iphoneports-pcre2, iphoneports-libxml2, iphoneports-sqlite, iphoneports-xxhash
+Filename: ./debs/lighttpd.deb
+Size: 439598
+MD5sum: 26cf8332b8ef99e5394a4c693e15e03a
+SHA1: 5d26ac965d317bf5186caab7dda121276c013488
+SHA256: 5593a349263ef8f6eccc12d79beccef1a7e317bb8fd86e02937af2468bec02f2
+Section: Networking
+Description: Lightweight high-performance web server
+
+Package: iphoneports-llvm
+Version: 19.1.7-1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-libc++, iphoneports-zlib, iphoneports-zstd
+Filename: ./debs/llvm.deb
+Size: 39874382
+MD5sum: 8389afc79c3f814a87edcfbe50f05cb4
+SHA1: d7010c0c024a7e597d38216536d45d5e66ca69b7
+SHA256: 896b44aa317da2eadf934b060e06036aae490877308c33262b88a2f12a42d264
+Section: Development
+Description: Compiler infrastructure
+
+Package: iphoneports-login
+Version: 433-3
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-pam
+Filename: ./debs/login.deb
+Size: 6912
+MD5sum: 6f682aea8d23242165af320b2ed10a08
+SHA1: 8c797dfe81796d86c1a4ec4a551b2c6b2b371c6a
+SHA256: b99dbd4ce9436694306991cd5bd2b450c5f746c39597243c486aa30233306caf
+Section: Administration
+Description: log into the computer
+
+Package: iphoneports-lua
+Version: 5.4.7-3
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-readline
+Filename: ./debs/lua.deb
+Size: 153286
+MD5sum: 06182808e18f57e457f979046d41d32c
+SHA1: 40dc3c6af15598ee274d967f8a3701b375be4a2f
+SHA256: 8f1a3c7f8bb1d98943e6a7cae2bcea064c7d649c706d42c08bdd891fe30a28f2
+Section: Scripting
+Description: A powerful, efficient, lightweight, embeddable scripting language.
+
+Package: iphoneports-luajit
+Version: 2.1.1736781742
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/luajit.deb
+Size: 407162
+MD5sum: ac99fc359c4a4e6a498690d68611f247
+SHA1: 34e0b889103534cc83fe2cf9769986bcb839e33e
+SHA256: 30d04368c5c3286fe2256e9cd1b31c1cc9049a817fa8a81fd82eb333c83c2e0c
+Section: Scripting
+Description: a Just-In-Time (JIT) compiler for the Lua programming language
+
+Package: iphoneports-lz4
+Version: 1.10.0-1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-xxhash
+Filename: ./debs/lz4.deb
+Size: 156552
+MD5sum: d013f7c060dfdf2a038008144f1cd98f
+SHA1: a92413b167fd708698de01a2b9aeace11cab0bd2
+SHA256: 661a621086bd2295a6d5ba44545392c307205a726f2ae9dd3647a581841e4556
+Section: Archiving
+Description: Extremely fast compression algorithm
+
+Package: iphoneports-lzip
+Version: 1.25
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/lzip.deb
+Size: 55532
+MD5sum: bf8a1cb99fc79cb3cbfbbd942acccbe7
+SHA1: 7f8288e1955e47c2a8da2a7b96f2e205435ed250
+SHA256: 8d34b5954f5eefe977c73485810cdedc0d3e0418de0f66ded1c6a3851b07f924
+Section: Archiving
+Description: A lossless file compressor based on the LZMA algorithm
+
+Package: iphoneports-lzlib
+Version: 1.14
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/lzlib.deb
+Size: 35510
+MD5sum: 4dbce92d973ea36a312a6b27a868f9a0
+SHA1: d464003905676ef14100edabe3dc7ed42900620c
+SHA256: cf97dffb8d7d5397fb5a7f7e924c344c2649e046eddc0538f5c5f9fcf2a5ed9b
+Section: Archiving
+Description: A library providing in-memory LZMA compression and decompression functions
+
+Package: iphoneports-lzo
+Version: 2.10-1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/lzo.deb
+Size: 81766
+MD5sum: de774657fb15ffcf6bc9421779a7d800
+SHA1: 0255295b1acf591a8970a942e072f044a5ecd98e
+SHA256: 3a42a0e99dab0ebb9faa062f7dfc9d5d5833a9fc0cf9a275f84bd2f809eb1250
+Section: Development
+Description: Portable lossless data compression library
+
+Package: iphoneports-lzop
+Version: 1.0.4-1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-lzo
+Filename: ./debs/lzop.deb
+Size: 33730
+MD5sum: dd230f49784e8dc9dd26a2387ddfce22
+SHA1: 11c9bb6e2531605d48f7b5081081598fbec287ff
+SHA256: 73ac93a26a11a3008809a1a1f30542779d47f59605fce4c164d58aa7c7d93f84
+Section: Archiving
+Description: File compressor using lzo lib
+
+Package: iphoneports-m4
+Version: 1.4.19-1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/m4.deb
+Size: 132210
+MD5sum: 38e607459cf56f7b383ae00395e231b9
+SHA1: 9df206fd0e214523228b846d14fcf3530e4e3477
+SHA256: 91522bd02b7e6499f8f1be61925a1f449f29aa35edd9a2556b59fd79f9775eed
+Section: Scripting
+Homepage: http://www.gnu.org/software/m4/
+Description: The GNU macro processor
+
+Package: iphoneports-make
+Version: 4.4.1-2
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/make.deb
+Size: 117444
+MD5sum: 8797679b92cffdc45db46ef621d23290
+SHA1: f8c7952b2f0a98a379f0705acc4a8954c20d7299
+SHA256: 8af73c3d3bb64c7fa4da5b8ff64423d1d9a6b0230354802bbec0f68147c23a69
+Section: Development
+Homepage: http://www.gnu.org/software/make/
+Description: Standard tool to compile source trees
+
+Package: iphoneports-mpdecimal
+Version: 4.0.0
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/mpdecimal.deb
+Size: 86968
+MD5sum: e31ae9f5b59807fac1c2bbccf6ec95dd
+SHA1: 843391595ffe164a8c72993b73ee579f7dcd8783
+SHA256: bdb7a52f83da9c42bddf1410df1d43b3757a34f60f09e000ba22e56d4ad1433b
+Section: Development
+Description: Package for correctly-rounded arbitrary precision decimal floating point arithmetic
+
+Package: iphoneports-mpfr
+Version: 4.2.1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-gmp
+Filename: ./debs/mpfr.deb
+Size: 238384
+MD5sum: 4453c63f4ee92d22f453bd2e531ca580
+SHA1: fc9ea1b3ab21a0871fd5f5c2253c7aac67e71cbd
+SHA256: 699bb3b7a9e5f85e1196c954b389cf557e15da356400e11803fa5703721476b5
+Section: Development
+Homepage: http://mpfr.org/
+Description: Multiple-precision floating-point library
+
+Package: iphoneports-nano
+Version: 8.3
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-ncurses
+Filename: ./debs/nano.deb
+Size: 242832
+MD5sum: 50ba797faf9e991808d27f91ac00ff4d
+SHA1: 222c43002bf430c44ee3e11f836b6725659b5904
+SHA256: ddc5163b9e8b4086ac0a21ec1186cb81134ce4227c8baac2b02ba72d7220e3c9
+Section: Text_Editors
+Description: completely free, modern clone of Pico
+
+Package: iphoneports-nc
+Version: 4.0.0
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-libressl, iphoneports-libtls
+Replaces: iphoneports-libressl
+Filename: ./debs/nc.deb
+Size: 24790
+MD5sum: e5f129fd7cbf3c194c2c3326b3c2b49c
+SHA1: f60e37bbfafefab5c82004c36dcebcac024287e2
+SHA256: 79b8f7b686d7d99ade433f83c7a63db54601ef0928a31e69df306fd2344f7f54
+Section: Networking
+Description: TCP/IP swiss army knife
+
+Package: iphoneports-ncal
+Version: 44-1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/ncal.deb
+Size: 10948
+MD5sum: 951003970e7989d088398fc778077855
+SHA1: fd696923fd7b1e0ce2472bb45f95a80f8a755104
+SHA256: 68d1f1968b55c95199575b998c58c1cc6f2c0ac37db825735110100d642b83dd
+Section: Utilities
+Description: A program for calculating and printing calendars
+
+Package: iphoneports-ncdu
+Version: 1.21
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-ncurses
+Filename: ./debs/ncdu.deb
+Size: 39926
+MD5sum: 13c347f483c4e4f499be39fcc0dc6c61
+SHA1: 13bc73f634ef26b63c1263bec809f1eb63d0ee8c
+SHA256: 590b3c2cf0586669d7e029e4248e971f418b4cbeaba1ce0312c65ea3f8133044
+Section: Utilities
+Description: Disk usage analyzer with an ncurses interface
+
+Package: iphoneports-ncompress
+Version: 5.0-2
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/ncompress.deb
+Size: 10152
+MD5sum: 00e3738c5a5fe2ea4c79ed52af008565
+SHA1: 88273c3ddc8df9210831561f6d95bb480c9ce80b
+SHA256: 1d80d2b47bea3401b783575206ae3262805a685f60fc5631408cba15203484ed
+Section: Archiving
+Description: a fast, simple LZW file compressor
+
+Package: iphoneports-ncurses
+Version: 6.5-3
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/ncurses.deb
+Size: 501500
+MD5sum: ba489918c32ac0c1737e01105ad38dd2
+SHA1: d8ceab8420e291da92ba0220e9390da0d1774f68
+SHA256: e7482f02dde1f916cbdf912e4be785305f57b57b3f7e3f0eceb8b13181ae3435
+Section: Development
+Description: System V Release 4.0 curses emulation library
+
+Package: iphoneports-neofetch
+Version: 7.98.0-1
+Architecture: all
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-bash, iphoneports-gawk, iphoneports-sed, iphoneports-grep, iphoneports-coreutils, iphoneports-sysctl, iphoneports-getusedmem
+Filename: ./debs/neofetch.deb
+Size: 137294
+MD5sum: 2d0c15d6f21d8ee89548c1751a7e2c12
+SHA1: d37423da779ea23893fb97204059104166204613
+SHA256: db48f91d3b80fd16c31375771570ea8eff7e4d16eb7744f19729f0b4d6256361
+Section: Utilities
+Description: A command line system information tool
+
+Package: iphoneports-nettle
+Version: 3.10.1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-gmp
+Filename: ./debs/nettle.deb
+Size: 458192
+MD5sum: c32bdc0602b1a569bf7507a698891e1c
+SHA1: 6bdb8e77ee440fd4502f6c64ecef4f6f34814d71
+SHA256: 4e1ed2f576a90d9de3f93534ca0c44429177274fe6632d868f401bc04fdc4d93
+Section: Security
+Description: A low-level cryptographic library
+
+Package: iphoneports-nextvi
+Version: 71
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/nextvi.deb
+Size: 74066
+MD5sum: ff55543b1b12adadebd319fd2c67153c
+SHA1: 8b4108d7d7c5176bfb3d0b15de906aac33df898b
+SHA256: b54f84183ffcc7cecc430de82b159f7b1c18fb4f644d58314751a73d07233213
+Section: Text_Editors
+Description: a small vi/ex editor for editing bidirectional UTF-8 text
+
+Package: iphoneports-nghttp2
+Version: 1.64.0
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/nghttp2.deb
+Size: 126338
+MD5sum: f18e3aa1b8eff1bdb5367588849a11e0
+SHA1: f149766dd48eeee1a37396501f6124b53effc4e2
+SHA256: 94a3a3bf0a9a1a4635563aee5daf092c37b3ca6747200ec8daeb9b77e68b12e6
+Section: Development
+Description: An implementation of HTTP/2 and its header compression algorithm HPACK in C.
+
+Package: iphoneports-nghttp3
+Version: 1.8.0
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/nghttp3.deb
+Size: 100100
+MD5sum: 645455841704a97a3aa15a6b112fbaa4
+SHA1: 030c11a8912d27d09764b434ec255fdfdefed506
+SHA256: bb7e5992998e75c5394bf366c28c2de8090a29d951c341cd5fb12cdfa905049d
+Section: Development
+Description: HTTP/3 library written in C
+
+Package: iphoneports-ngtcp2
+Version: 1.11.0
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-libressl
+Filename: ./debs/ngtcp2.deb
+Size: 226736
+MD5sum: c5e31a0890e05ed730d7ced2c996a80e
+SHA1: 0350fa19b77b0e6803da52ca4510e25e9f2292bb
+SHA256: fe828798be656f5527ca2d8c3e6a6a579c4ad0a224de5602ba36c8af9af788d6
+Section: Development
+Description: ngtcp2 project is an effort to implement IETF QUIC protocol
+
+Package: iphoneports-ninja
+Version: 1.12.1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-libc++
+Filename: ./debs/ninja.deb
+Size: 140458
+MD5sum: ef380472cc67f59cef1b30fd2e78bd75
+SHA1: e5af51f5d3af498a26f352101055c5a9fc8d04e0
+SHA256: 41151ebb519e52ff87ad177a8189f50ef02c1a9b23a3b0a9f5c5fd1905b8ef86
+Section: Development
+Description: Small build system with a focus on speed
+
+Package: iphoneports-openssh
+Version: 9.9p2
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-libressl, iphoneports-zlib
+Replaces: openssh
+Filename: ./debs/openssh.deb
+Size: 2570438
+MD5sum: b49a56f95c97d557a87a538c1b9d5cbe
+SHA1: d82416418290177723732f774a867f64113b4fa7
+SHA256: 1f73d20ccd5cc9b761911185811c63678379a4fca8987deb2a3f557c7528306d
+Section: Networking
+Description: secure remote access between machines
+
+Package: iphoneports-pam
+Version: 32.1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/pam.deb
+Size: 57516
+MD5sum: 8750f9cdb39d2056e5f7e98e699c2326
+SHA1: e8829600df45fe9c88b657a7df364efe76baf0cd
+SHA256: 1789b2a11b3658fa574ec32a51b06d02566b3f09c8c8a86d82195cead1482468
+Section: Administration
+Description: Pluggable authentication modules
+
+Package: iphoneports-patch
+Version: 2.7.6-1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/patch.deb
+Size: 112262
+MD5sum: 9d13c175c9532d49e4ff0de7d7a1081a
+SHA1: bbbb2baed246cdd3c648f0ee2636a477a0e8f724
+SHA256: 858cbe4433afccc0aac39c3e14d9b9f599968904ae4f57f3162daef69bc4520b
+Section: Development
+Description: merge a difference onto a file
+
+Package: iphoneports-pax
+Version: 428-2
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/pax.deb
+Size: 50162
+MD5sum: d7ffbe0abfd092c676f58e11de52cde5
+SHA1: e3c08066fdaf913e7f7f36816d8277e2046d91d3
+SHA256: 4db2aa30a52df33e2d1448feaaede5db76743dbdffab22a896c530e5e9823483
+Section: Archiving
+Description: Portable Archive eXchange
+
+Package: iphoneports-pcre
+Version: 8.45-2
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-readline, iphoneports-bzip2, iphoneports-zlib
+Filename: ./debs/pcre.deb
+Size: 136628
+MD5sum: 73775b324392d5cdc08aa842976821c4
+SHA1: 8641fcf25c2e1580aae1bd001765644af797fcea
+SHA256: 90f7c32695079d25be90ac6870d9b6732e79ed1b9faff62727abb8958806fb7f
+Section: Development
+Description: A library that implements Perl 5-style regular expressions
+
+Package: iphoneports-pcre2
+Version: 10.45
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-readline, iphoneports-bzip2, iphoneports-zlib
+Filename: ./debs/pcre2.deb
+Size: 553818
+MD5sum: cd5a7e5c29485f9cc0104b7ff2548e25
+SHA1: a2604175c2dde972c57a8f040db972ce7d48ed07
+SHA256: bff46ca954f962476bdb5c78deef3c425a87e5a24a107635c8e85e3a7811dcbe
+Section: Development
+Description: A library that implements Perl 5-style regular expressions. 2nd version
+
+Package: iphoneports-pfetch
+Version: 1.7.1
+Architecture: all
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-dash, iphoneports-coreutils, iphoneports-sysctl, iphoneports-hostname, iphoneports-getusedmem
+Filename: ./debs/pfetch.deb
+Size: 22938
+MD5sum: 3aaf35941dc20de7c410ca2b3f100d94
+SHA1: 4d62b0c3e67bea66e8c498e1fecc166487a51a36
+SHA256: 7cf9af8b37821a55384d85da946c7202b81c3a4cb7681474588ed5e5206f00ef
+Section: Utilities
+Description: A pretty system information tool written in POSIX sh
+
+Package: iphoneports-pigz
+Version: 2.8
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-zlib
+Filename: ./debs/pigz.deb
+Size: 63000
+MD5sum: da4ba44b231dcdd6830076868fc009d8
+SHA1: 4367260f742ee7c9c25a9548132802141ff18a42
+SHA256: 9545860db0f5479be1ec6e18a658f0d2900d87c769cc93b68cfde33d6c8d027e
+Section: Archiving
+Description: A parallel implementation of gzip for modern multi-processor, multi-core machines
+
+Package: iphoneports-ping
+Version: 325-7
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/ping.deb
+Size: 26318
+MD5sum: abf09e52aa725f653a56037d10edf7ce
+SHA1: 7fcaa1a1438e6d831b41b82e554e7f29aa62b57e
+SHA256: c77a65029d0f99095cf8dd3439ca78c97967cd53f61a266a449321323a99a2f9
+Section: Utilities
+Description: A utility for sending ICMP ECHO_REQUEST packets to network hosts
+
+Package: iphoneports-pkgconf
+Version: 2.3.0
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/pkgconf.deb
+Size: 58872
+MD5sum: 5bc3ffc3f2afd67f1f70012c40e66c52
+SHA1: f552ef0896663acfb8196c3cbcd5ae08740ff24c
+SHA256: 813b316a57b28d36c05849cec8b2495382b1eab9a24b6a47ff4b71b94ca4936e
+Section: Development
+Description: Package compiler and linker metadata toolkit
+
+Package: iphoneports-popt
+Version: 1.19
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/popt.deb
+Size: 28868
+MD5sum: b6c54662666e9458b31afdaaa0959472
+SHA1: dca63913b4a1e18f4b0f8ffeaa7b30d6fefc573f
+SHA256: d175a0b4d0ef1923522876b487cf78251b1f1ae3a9f2b202531fb00ca6eebdf4
+Section: Development
+Description: C library for parsing command line parameters
+
+Package: iphoneports-ps
+Version: 172-5
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/ps.deb
+Size: 15254
+MD5sum: 58456b5f471d01eded33d667d8ec4efa
+SHA1: 3613bfea8db8be7f9558bbfb3d53ca33687a10a9
+SHA256: 9e0c22c456d0e50ace681126d900c811f4aac2a6549b0661f86ecbc982c34505
+Section: Utilities
+Description: report a snapshot of the current processes
+
+Package: iphoneports-pstree
+Version: 2.40-2
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-ps
+Filename: ./debs/pstree.deb
+Size: 5762
+MD5sum: 89ff2a751b0bacfc07ab05f2405e545e
+SHA1: 0b70c4a21f8ece8dc2a805f34cead2ba9a42206f
+SHA256: 51cd12a9c5bab224b60502e1083633217296a96e942db1b6533f860dc71f3f22
+Section: Utilities
+Description: Show ps output as a tree
+
+Package: iphoneports-python
+Version: 3.13.2
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-ncurses, iphoneports-readline, iphoneports-bzip2, iphoneports-xz, iphoneports-zlib, iphoneports-libressl, iphoneports-mpdecimal
+Filename: ./debs/python.deb
+Size: 39513220
+MD5sum: 039cb0d9811e22df5ca2facb43ea7acb
+SHA1: 9199b5ecccb7c6975a3b1fbc9f9304ca29cf2a90
+SHA256: 70cb73d0c4bb156e154d7cb1c10da5e205784ee4bdaafcd82fe66f20a13fef21
+Section: Scripting
+Description: The Python programming language
+
+Package: iphoneports-quickjs
+Version: 2024-1-13-1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/quickjs.deb
+Size: 554016
+MD5sum: 6bae47fbf32ad38ef9be95ad24dc28a0
+SHA1: ea13eb0f1ce6b59e740b2ebc849abfa16f9a9de4
+SHA256: 7092ee4b40a122ee4d03f38b8832959f2c4c31073ffd31f6374d5220dc141f8b
+Section: Scripting
+Description: A small and embeddable Javascript engine
+
+Package: iphoneports-readline
+Version: 8.2.13
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-ncurses
+Filename: ./debs/readline.deb
+Size: 187064
+MD5sum: cbbc84dc9d00c356cf0308c0d8fb07d8
+SHA1: b3af860c0623134d5f6d54e45e1c5f864f637996
+SHA256: f887980f82af88473d64e007f804a80c65069429f7127361008081d8d58345f5
+Section: Development
+Description: command-line history management
+
+Package: iphoneports-rogue
+Version: 5.4.4-5
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-ncurses
+Filename: ./debs/rogue.deb
+Size: 91554
+MD5sum: 42b5b83784022981cbd36ee1b318fcd9
+SHA1: 8ade8244cb27cc46910df12e78646df45b2ba0c9
+SHA256: 8e849167eeae07799a3cc8addf49f059c1c3d4e3e10c4036dfdadbefde4f0763
+Section: Games
+Description: The original dungeon crawl game.
+
+Package: iphoneports-rsync
+Version: 3.4.1-1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-libressl, iphoneports-lz4, iphoneports-zstd, iphoneports-zlib, iphoneports-xxhash, iphoneports-popt, iphoneports-bash
+Filename: ./debs/rsync.deb
+Size: 243850
+MD5sum: c7cd8253170eac3a0e6c267c03b87776
+SHA1: a049929494aa91948c714f87d572319e47a237f3
+SHA256: ee22fed75273aed83bfc6ed26c7e9b765ba9ee75498a320f1eccdfef2100a51e
+Section: Networking
+Homepage: http://www.samba.org/rsync/
+Description: A fast and versatile file copying tool for remote and local files
+
+Package: iphoneports-screen
+Version: 5.0.0
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-ncurses, iphoneports-pam
+Filename: ./debs/screen.deb
+Size: 482240
+MD5sum: 91b1e267ac3f4cac43d046a641b8480a
+SHA1: cb603f363c707e27bb5ca7ae5741e6c211a49534
+SHA256: c7ef80e8f1500104bd1ea5bac4636fef35069d8cd9c27e564cf862fc9d73a517
+Section: Terminal_Support
+Homepage: http://www.gnu.org/software/screen/
+Description: multiplexes a terminal into many
+
+Package: iphoneports-sed
+Version: 4.9-2
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/sed.deb
+Size: 103678
+MD5sum: 6123d173c16c8ba717a943e09f1a6ffd
+SHA1: c9ef225d9666c195dedb3f96f950d75a5b2114ee
+SHA256: c8679979f31e9d4a458304d77b8606204d5a95dbb39895aeb5e30e2f67e94a82
+Section: Utilities
+Homepage: http://www.gnu.org/software/sed/
+Description: stream editor
+
+Package: iphoneports-sqlite
+Version: 3.48.0
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-zlib, iphoneports-readline
+Filename: ./debs/sqlite.deb
+Size: 1293086
+MD5sum: e1ca6e1146a1ca49e55f7d04f93c3782
+SHA1: 1dc398caee53c7380fbbad17ad83e1c37b5d512c
+SHA256: 1f43accb540a30cc8359e429d8988e9324630f6c71ef0dbeb1407b3ecc3c3289
+Section: Utilities
+Description: SQL database engine
+
+Package: iphoneports-su
+Version: 116-7
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-pam
+Filename: ./debs/su.deb
+Size: 5340
+MD5sum: 4fb25b9f87db93a25ab6b82d0fb9d816
+SHA1: 471df631d57a957bd8679317cf1dd66935ed2228
+SHA256: 385db6d2e2fe10135d23a0685090b925e6fea4008e6bf256dcb616cc3809a641
+Section: Administration
+Description: substitute user
+
+Package: iphoneports-sudo
+Version: 1.9.16p2-1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-zlib, iphoneports-libressl
+Filename: ./debs/sudo.deb
+Size: 1043360
+MD5sum: 4c0b359f096aa669715949c9aa0f96c6
+SHA1: 388e24365c7e4719739c0c4005beafad630224a1
+SHA256: 92389bc22cca069acd731930135bd8823c3071c6c64663a67c8dfae498a7c43f
+Section: Administration
+Description: temporarily assume root priviledges
+
+Package: iphoneports-sw-vers
+Version: 1-1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/sw_vers.deb
+Size: 2764
+MD5sum: 2280ba88fb29fbe3255146b4e09d0034
+SHA1: 1d4ad56c11d312ded96a48dea0a116f492770a60
+SHA256: 841d7a34255ad4fa34eb9593c81bb61a703532e4612a8d39c6779689c47e0957
+Section: Utilities
+Description: print system version information
+
+Package: iphoneports-sysctl
+Version: 979.100.8-1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/sysctl.deb
+Size: 8766
+MD5sum: 7996dafb9bd3423b6ac9a31e6188854b
+SHA1: 3ab684a59e7399ff40b9b8612f35dc49fa5b326c
+SHA256: adaad89d64d89c6751fa31e56725409ad34be916b0d71ba0c277fabbdfe695d1
+Section: Utilities
+Description: A utility for retrieving and setting kernel parameters
+
+Package: iphoneports-tcsh
+Version: 6.24.13
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-ncurses
+Filename: ./debs/tcsh.deb
+Size: 202446
+MD5sum: 23d17dd473cf23d92fa8d98885504027
+SHA1: 5385f91df2bd26affc24c98f7cb00392d78d6858
+SHA256: 63b94ba533dc63d49e05612588df83b1389d679a75e9618993ea7913ce442f60
+Section: Terminal_Support
+Description: enhanced version of the BSD C Shell
+
+Package: iphoneports-time
+Version: 279.100.3-1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/time.deb
+Size: 3314
+MD5sum: 8126d7b63b0998b633ad5b5fd2197971
+SHA1: 6546b6c936b849ff850648cea259a5fc208ed954
+SHA256: be3a477531180b27d8cf0e76e96bb6cc9ee05d87a39874c005622aecd016cd3e
+Section: Utilities
+Description: A utility for timing command execution
+
+Package: iphoneports-tinyxxd
+Version: 1.3.7
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Conflicts: iphoneports-xxd
+Replaces: iphoneports-xxd
+Provides: iphoneports-xxd
+Filename: ./debs/tinyxxd.deb
+Size: 20066
+MD5sum: 60f5443c7604249e15203405f1f54f9d
+SHA1: dfe4a3b51edcfe3283d9c09699dda94e779256ba
+SHA256: 4e87bee3f99a1dd708ae80f2970b7945bb69c41bdcf5a3be6a2419844e114e3b
+Section: Utilities
+Description: Standalone version of the hex dump utility that comes with ViM
+
+Package: iphoneports-top
+Version: 39-4
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-ncurses
+Filename: ./debs/top.deb
+Size: 29812
+MD5sum: 193034ff46129c56922b4bceba2f33c3
+SHA1: 98c378ba417a1cc2b6fbd5c92df18f7a08e97945
+SHA256: 9a32d8cd53786346191f6714701cb476d336dfe9922e4356ecef9637ef62aed4
+Section: Utilities
+Description: A utility to display and update information about the top cpu processes
+
+Package: iphoneports-tree
+Version: 2.2.1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/tree.deb
+Size: 28988
+MD5sum: 3af61b4c7c116361bc22a81b3a861500
+SHA1: a3aec3e0501c975640cf9aee18d409195bdd8db5
+SHA256: 1212fd28cf0abc268bf9595ae40055bdfa39502a801306e81b9a08675570e434
+Section: Utilities
+Description: A colorized, indented directory listing tool
+
+Package: iphoneports-unrar
+Version: 7.1.4
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-libc++
+Filename: ./debs/unrar.deb
+Size: 205916
+MD5sum: e6d92f215ba336dfed80804572baa85b
+SHA1: eea4f9cef5a0037333fe535ce4fb1346ffc73e12
+SHA256: fe142e8e1c72703899d61e52d60404bb4dd50b175376c85e4bb0f95e09d933fe
+Section: Archiving
+Description: de-compresses files in rar format
+
+Package: iphoneports-usbmuxd
+Version: 1.1.1-8
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-libplist, iphoneports-libimobiledevice, iphoneports-libusb, iphoneports-libimobiledevice-glue
+Filename: ./debs/usbmuxd.deb
+Size: 33704
+MD5sum: 9df0df9e7704b56f10ff0ad6eb20f7a4
+SHA1: a9fa1940519b27ead11448f700cc18f6fb49f5cc
+SHA256: 014ddc8ad4f96aee21cdcf2b826bc907e753582f9d013892e90f46ae017c54af
+Section: Utilities
+Description: A socket daemon to multiplex connections from and to iOS devices
+
+Package: iphoneports-vbindiff
+Version: 3.0b5-1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-ncurses
+Filename: ./debs/vbindiff.deb
+Size: 21600
+MD5sum: c363be4eab16477ed4ef0fa58e2aa9cf
+SHA1: 00f98220601350a8a4f5af6f9d2d1955522756d3
+SHA256: dc06103162ad551d291e3d86345f657aa719fc87bb6561388ed113867ca3e79f
+Section: Utilities
+Description: displays files in hexadecimal and ASCII (or EBCDIC) and highlight the differences between them
+
+Package: iphoneports-vim
+Version: 9.1.1147
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-tinyxxd
+Replaces: iphoneports-nextvi
+Filename: ./debs/vim.deb
+Size: 10789390
+MD5sum: 29e8550c0c8ee49a06f4bf2f671ce2fe
+SHA1: 71b4d6a17b9ec3d6b8b156411275f99312ed0df1
+SHA256: 3fffa43f86fee54eafac97c0ffe3d90a3faa0c87b67ce89417b626a5f6a4ba18
+Section: Text_Editors
+Description: Vi Improved, a highly configurable, improved version of the vi text editor
+
+Package: iphoneports-vm-stat
+Version: 498.0.10-5
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/vm_stat.deb
+Size: 3376
+MD5sum: cec0ec73ad31707f0c4a57339d20d616
+SHA1: d32d37b06bda431c5b4a3ebd298501781d4b7424
+SHA256: 3fb318588e0187d82719d92d31378c2bb4560a91e11add77ab85c809823cd8d7
+Section: Utilities
+Description: A utility for displaying Mach virtual memory statistics
+
+Package: iphoneports-wasm3
+Version: 0.5.0-4
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-libuv
+Filename: ./debs/wasm3.deb
+Size: 75038
+MD5sum: b302d4e9ea8c45c6b1a4e472d4dcd3ba
+SHA1: edf1d68d6e0c87450f6a57cfc154c98b24d47ee8
+SHA256: 90c690e75ad67cb4b073316884fc4fb7ec07c36ea8b2bb8fffd310d56ed7cfd8
+Section: Scripting
+Description: A fast WebAssembly interpreter and the most universal WASM runtime
+
+Package: iphoneports-wget
+Version: 1.25.0
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-libressl, iphoneports-pcre2, iphoneports-zlib, iphoneports-libunistring, iphoneports-libpsl
+Filename: ./debs/wget.deb
+Size: 267134
+MD5sum: 27576b07252533541fa1e0dfe524709b
+SHA1: 5f7992a125255e7413034806f52eae367c5868bb
+SHA256: 584fad2611b4e55b26e0eeba1e75260d9c538a13ebb83b5b03518286b51165d1
+Section: Networking
+Description: Network utility to retrieve files from the Web
+
+Package: iphoneports-wget2
+Version: 2.2.0-1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-libressl, iphoneports-pcre2, iphoneports-zlib, iphoneports-nghttp2, iphoneports-libpsl, iphoneports-brotli, iphoneports-zstd, iphoneports-libidn2, iphoneports-xz, iphoneports-bzip2
+Filename: ./debs/wget2.deb
+Size: 393444
+MD5sum: c5be98e1d9ba63348b9d943591b302f7
+SHA1: e173140cd969f1b417d2d0ad9b4b538a346b0cb8
+SHA256: c68941e10683abe7ea05b6cc123afc18cfab8de1f573c149a67ca31a3b6eae31
+Section: Networking
+Description: Network utility to retrieve files from the Web
+
+Package: iphoneports-which
+Version: 278-1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/which.deb
+Size: 2708
+MD5sum: 7ab398868dd24a8c89c9c1eaff80d0a3
+SHA1: 9db049026a47f441108a736b249f47cb0d513899
+SHA256: c6100e68d6db715153d6ffe18e09ff1cfad58789fce4bd6bac133e83eb1dabec
+Section: Utilities
+Description: A utility for locating programs in the user's PATH
+
+Package: iphoneports-whois
+Version: 199.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/whois.deb
+Size: 5626
+MD5sum: 4e6b7699618bab8dfdfc508aff2593bf
+SHA1: 490bd9e14c5fbeced03e46524df8678cc89d6413
+SHA256: b06013268e8ae021f8054ec54c3cd85011379884ccc6b0a19acbf8d0767df59a
+Section: Utilities
+Description: An internet domain name and network number directory service
+
+Package: iphoneports-xar
+Version: 501
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-zlib, iphoneports-xz, iphoneports-bzip2, iphoneports-libxml2, iphoneports-libressl
+Filename: ./debs/xar.deb
+Size: 70500
+MD5sum: 7293eb3043eeaa892ff3263081ddbf3a
+SHA1: b0788483ea43de119a6e17e625b2de3fbdcadbfa
+SHA256: 7e881f25e591a3fdd956b7629cda7bc12b5da8b3cd0a3d3d93ac173a6a26f5d8
+Section: Archiving
+Description: eXtensible ARchive format
+
+Package: iphoneports-xxhash
+Version: 0.8.3-1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/xxhash.deb
+Size: 167678
+MD5sum: a5c4da0b36bf033d38c73c15d6c99315
+SHA1: 211bb1f8a3925c2a2df4b06729e100b223c79fa2
+SHA256: 4206748f3094c0f2bd7b7ce2230f6e6479128c095f11628de60ecf2d4390b6d8
+Section: Development
+Description: Extremely fast non-cryptographic hash algorithm
+
+Package: iphoneports-xz
+Version: 5.6.4
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-grep, iphoneports-sed
+Filename: ./debs/xz.deb
+Size: 218088
+MD5sum: eb2b31d190fb0a154c4c7175fe376a09
+SHA1: f7816b9b9a344db981ac162bfad44813c7c1a10b
+SHA256: 7b3001b4e6390d304dee83911000699d1308b56906ad105e7e8ef034301d29be
+Section: Archiving
+Homepage: http://tukaani.org/xz/
+Description: XZ-format compression utilities
+
+Package: iphoneports-zlib
+Version: 2.2.4-1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base
+Filename: ./debs/zlib.deb
+Size: 99134
+MD5sum: 59016fbee46f48db64fbfe2ae938db66
+SHA1: 994b49e42f15422b18c7f683813336470002b4eb
+SHA256: e45f8614e65a99d1b1cf9ab2827d150328023ee565337bbb853e2003e64b0e14
+Section: Development
+Description: zlib replacement with optimizations for "next generation" systems
+
+Package: iphoneports-zsh
+Version: 5.9-1
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-ncurses, iphoneports-pcre
+Filename: ./debs/zsh.deb
+Size: 2049564
+MD5sum: 068f093a2f0982cbfb6ff3d876d7f0af
+SHA1: 7c52ba0be30173a417d29ac40bc6925a2a994fb2
+SHA256: ed61f799dcf694fa1210575538ba33e925c2a86bffb09a8f34d71be2ad5b31a8
+Section: Terminal_Support
+Description: A very advanced and programmable command interpreter (shell) for UNIX
+
+Package: iphoneports-zstd
+Version: 1.5.7
+Architecture: iphoneos-arm
+Maintainer: Uniq <joey.t.reinhart@gmail.com>
+Depends: iphoneports-base, iphoneports-lz4, iphoneports-xz, iphoneports-zlib
+Filename: ./debs/zstd.deb
+Size: 899974
+MD5sum: 522f983c776061e7989937434e2fbcf4
+SHA1: 670bb792200265eed0f67c6f0b4844e7a9029c75
+SHA256: 906691a6c8b100cd63fa3bd56e71ad2d9348e5ead3f6cf478b773b1fd5716abf
+Section: Archiving
+Description: Zstandard - Fast real-time compression algorithm
+
