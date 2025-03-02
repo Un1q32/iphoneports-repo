@@ -1318,10 +1318,10 @@ Architecture: darwin-amd64
 Maintainer: Uniq <joey.t.reinhart@gmail.com>
 Depends: iphoneports-base
 Filename: ./debs/nghttp2.deb
-Size: 132398
-MD5sum: 0ef753167e974714b6b8b65c3ec4d97a
-SHA1: 4013bc2e4a6fdd33bb52c1614ef82e51d2741baf
-SHA256: 2a2a1417c6cc3fc26597cb17dc9367b57ac6b1f5c57d57c3c953821658972ad8
+Size: 132168
+MD5sum: 55c39bdb93718b3fc21b1b786f274a85
+SHA1: 997f774e60f72156eab628db97d901079482ed72
+SHA256: 8482286dd615caffd0c3573af376b6cfbdfb2927faca33df114ca5c1fa944009
 Section: Development
 Description: An implementation of HTTP/2 and its header compression algorithm HPACK in C.
 
