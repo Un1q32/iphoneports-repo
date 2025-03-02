@@ -1313,15 +1313,15 @@ Section: Text_Editors
 Description: a small vi/ex editor for editing bidirectional UTF-8 text
 
 Package: iphoneports-nghttp2
-Version: 1.64.0
+Version: 1.65.0
 Architecture: darwin-amd64
 Maintainer: Uniq <joey.t.reinhart@gmail.com>
 Depends: iphoneports-base
 Filename: ./debs/nghttp2.deb
-Size: 132168
-MD5sum: 55c39bdb93718b3fc21b1b786f274a85
-SHA1: 997f774e60f72156eab628db97d901079482ed72
-SHA256: 8482286dd615caffd0c3573af376b6cfbdfb2927faca33df114ca5c1fa944009
+Size: 126144
+MD5sum: abb37750ef9299c400343d8e70bf47d2
+SHA1: 39dc1d8ea99aa929597e3b7a22622a8c5862165c
+SHA256: 22c95385cda6e5cbc4fdaaa361564116941c31657331ac26ba101f22d5cf7098
 Section: Development
 Description: An implementation of HTTP/2 and its header compression algorithm HPACK in C.
 
