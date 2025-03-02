@@ -1444,15 +1444,15 @@ Section: Development
 Description: A library that implements Perl 5-style regular expressions. 2nd version
 
 Package: iphoneports-pfetch
-Version: 1.8.0
+Version: 1.8.1
 Architecture: all
 Maintainer: Uniq <joey.t.reinhart@gmail.com>
 Depends: iphoneports-base, iphoneports-dash, iphoneports-coreutils, iphoneports-sysctl, iphoneports-hostname, iphoneports-getusedmem
 Filename: ./debs/pfetch.deb
-Size: 23866
-MD5sum: 34c5116faa2ae9627572b51afdbf7756
-SHA1: dbb598f2470d3e6f77384d76816c4fb5cfa8b816
-SHA256: f287982203f9ee9de0f18e8538d356884b3881c366300941bae7a3c7addb8737
+Size: 23864
+MD5sum: 914cff7f743cd7e6db181516b6ae33e8
+SHA1: 16e13bc1dd5f133825aedf32ae6e0b1f4253b790
+SHA256: 2fbb1f55f7f3324c1b6317a004849f938a8b07deae2a8a85b7a1abdeecf16fa0
 Section: Utilities
 Description: A pretty system information tool written in POSIX sh
 
