@@ -1010,15 +1010,15 @@ Section: Development
 Description: A C library for reading, creating, and modifying zip archives.
 
 Package: iphoneports-lighttpd
-Version: 1.4.76-3
+Version: 1.4.77
 Architecture: darwin-amd64
 Maintainer: Uniq <joey.t.reinhart@gmail.com>
 Depends: iphoneports-base, iphoneports-libressl, iphoneports-zlib, iphoneports-bzip2, iphoneports-zstd, iphoneports-brotli, iphoneports-lua, iphoneports-pcre2, iphoneports-libxml2, iphoneports-sqlite, iphoneports-xxhash
 Filename: ./debs/lighttpd.deb
-Size: 456880
-MD5sum: 0f150ec0f4f138ad7eb78df782cffc97
-SHA1: 05daf298f1c7243f923bf03fa56574267e33f7fa
-SHA256: 3727018f94ed59438774c9f51875c4b8497c4741415a33ef410b233b80884ccc
+Size: 459786
+MD5sum: 97b9f7b5c7aa9d4e2711fab4ea050df9
+SHA1: 63848248c00d4a43c0ff4484fd9f43efa91189ac
+SHA256: 34af419e0f4dd32dd481cf2e0edacd2b5606e6a611bc9af913290af530585eae
 Section: Networking
 Description: Lightweight high-performance web server
 
