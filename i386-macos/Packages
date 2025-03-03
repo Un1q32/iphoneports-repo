@@ -997,15 +997,15 @@ Section: Development
 Description: XML C parser and toolkit
 
 Package: iphoneports-libzip
-Version: 1.11.2
+Version: 1.11.3
 Architecture: darwin-i386
 Maintainer: Uniq <joey.t.reinhart@gmail.com>
 Depends: iphoneports-base, iphoneports-xz, iphoneports-libressl
 Filename: ./debs/libzip.deb
-Size: 105212
-MD5sum: b5e6e874c25fbbfd0514648f1cd19145
-SHA1: 41922af3be82dbe5c31acb107925fd38fd856df5
-SHA256: 1bb384cf1712920602dd3fed4f806aad48f6692277539257943cfb34b94f9995
+Size: 106708
+MD5sum: 10e366925d470188527e592584150b41
+SHA1: f5b5e307f3dd20ff6c119549909bcf1800197538
+SHA256: c0441de4889c31a8dd16209e715942baac95e295cef5e321c46630db316b2cd2
 Section: Development
 Description: A C library for reading, creating, and modifying zip archives.
 
