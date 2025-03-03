@@ -240,15 +240,15 @@ Homepage: http://www.gnu.org/software/coreutils/
 Description: The basic file, shell and text manipulation utilities of the GNU operating system
 
 Package: iphoneports-cppcheck
-Version: 2.16.0
+Version: 2.17.1
 Architecture: darwin-amd64
 Maintainer: Uniq <joey.t.reinhart@gmail.com>
 Depends: iphoneports-base, iphoneports-libc++, iphoneports-pcre, iphoneports-python
 Filename: ./debs/cppcheck.deb
-Size: 2492156
-MD5sum: b1574c7d19023fb2e532acc90cd2d01d
-SHA1: 035195a29f404323acf7d6cb8d4be7d2563aee21
-SHA256: 2eed57e20a5cf90df2e545d3c5ea552846c9cab18431b4019e34759af526434d
+Size: 2537658
+MD5sum: 6793bc22b30bbd57371eb02749614d66
+SHA1: 62b1745f6d2a2b8b798a7d0cd8d6e094074fc683
+SHA256: cfea78777e6a696c90dbfb37a41878a656c7e07f7cb37979c7ef6dbe62e45ab9
 Section: Development
 Description: A tool for static C/C++ code analysis
 
