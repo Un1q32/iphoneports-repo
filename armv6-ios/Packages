@@ -694,15 +694,15 @@ Section: Archiving
 Description: Multi-format archive and compression library
 
 Package: iphoneports-libc++
-Version: 19.1.7-3
+Version: 19.1.7-4
 Architecture: iphoneos-arm
 Maintainer: Uniq <joey.t.reinhart@gmail.com>
 Depends: iphoneports-base
 Filename: ./debs/libc++.deb
-Size: 1537124
-MD5sum: 754cc3dad301cbe4bd26555e76ada54c
-SHA1: 798abaf451530085d0ef77055b057aa68d60e70e
-SHA256: 6874c596dccb702ca215022e5486218600450bdec70ff6e25bbb2fed48800d65
+Size: 1537110
+MD5sum: f8bfd8ea0fc3fcefb79c1b516ac3d9c4
+SHA1: d05cb26b6f08867165f6fa543654fc6ee9b8797c
+SHA256: c57be8a49ad70c122aaa88d0a2e8b443c98eb30f00716b0ff30ada77078d1599
 Section: Development
 Description: LLVM C++ standard library
 
