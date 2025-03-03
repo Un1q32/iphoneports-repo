@@ -1694,15 +1694,15 @@ Section: Utilities
 Description: A utility for retrieving and setting kernel parameters
 
 Package: iphoneports-tcsh
-Version: 6.24.13
+Version: 6.24.15
 Architecture: darwin-amd64
 Maintainer: Uniq <joey.t.reinhart@gmail.com>
 Depends: iphoneports-base, iphoneports-ncurses
 Filename: ./debs/tcsh.deb
-Size: 229476
-MD5sum: 9fc21fc36aae6bf66d9c335f43a8537b
-SHA1: 46d0f80ae94eb706cd01f4cb4a344ea015f6c877
-SHA256: 177bb936fa37041e866deed69565c8718309558ed36fbf875f8287f4801d5db1
+Size: 232080
+MD5sum: dfc621f87057e522462bad64df48d178
+SHA1: f49b1a19220eedacc3d440861c64375d294a8e94
+SHA256: 7ba5f1c874a4d322ac081690f42646a71136f051856f582d0d7bbc13a7e28062
 Section: Terminal_Support
 Description: enhanced version of the BSD C Shell
 
