@@ -25,17 +25,17 @@ Section: Games
 Description: 2048 in your terminal
 
 Package: iphoneports-base
-Version: 23
+Version: 24
 Architecture: iphoneos-arm
 Maintainer: Uniq <joey.t.reinhart@gmail.com>
 Depends: iphoneports-dash, iphoneports-coreutils, firmware (>= 3.0)
 Conflicts: iphoneports-chsh
 Replaces: iphoneports-chsh
 Filename: ./debs/base.deb
-Size: 5358
-MD5sum: bd8d1884bb08a88d5302f38de68fb072
-SHA1: edcd09046c5eba07234ccdcb78ff11e61e666749
-SHA256: b68786176ebe126aa3912e33e2d991b041e1b4d2cd5c44575f7565e364adbf6b
+Size: 5360
+MD5sum: 203e8bffa8d513600e9e41abd9dd13de
+SHA1: d65322e5b2a34e0d95206940c81f50e91c2b8e08
+SHA256: 7a1cc730c29ca2cccebff4595b57774dbadcdb6f30d9025210881283f875bd6f
 Section: System
 Description: iPhonePorts base
 
